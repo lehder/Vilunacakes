@@ -1,0 +1,119 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="wrapper">
+        <aside>
+            <header>
+                <h1 class="logo">CapriShop</h1>
+            </header>
+            <nav>
+                <ul>
+                    <li>
+                        <a class="boton-menu boto-volver" rel="stylesheet" href="./index.html">
+                              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-return-left" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M14.5 1.5a.5.5 0 0 1 .5.5v4.8a2.5 2.5 0 0 1-2.5 2.5H2.707l3.347 3.346a.5.5 0 0 1-.708.708l-4.2-4.2a.5.5 0 0 1 0-.708l4-4a.5.5 0 1 1 .708.708L2.707 8.3H12.5A1.5 1.5 0 0 0 14 6.8V2a.5.5 0 0 1 .5-.5z"/>
+                              </svg>Seguir comprando
+                        </a>
+                    </li>
+                    <li>
+                        <a class="boton-menu boton-carrito active" rel="stylesheet" href="./carrito.html">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart-check-fill" viewBox="0 0 16 16">
+                                <path d="M.5 1a.5.5 0 0 0 0 1h1.11l.401 1.607 1.498 7.985A.5.5 0 0 0 4 12h1a2 2 0 1 0 0 4 2 2 0 0 0 0-4h7a2 2 0 1 0 0 4 2 2 0 0 0 0-4h1a.5.5 0 0 0 .491-.408l1.5-8A.5.5 0 0 0 14.5 3H2.89l-.405-1.621A.5.5 0 0 0 2 1H.5zM6 14a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm7 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm-1.646-7.646-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L8 8.293l2.646-2.647a.5.5 0 0 1 .708.708z"/>
+                              </svg>Carrito 
+                        </a> 
+                    </li>
+                </ul>
+            </nav>
+            <footer>
+                <p class="texto-footer">© 2023 Lehder</p>
+            </footer>
+        </aside>
+        <main>
+            <h2 class="titulo-principal">Carrito</h2>
+            <div class="contenedor-carrito">
+               <p id="carrito-vacio" class="carrito-vacio" >Tu carrito esta vacio &#128533;.</p>
+
+               <div id="carrito-productos" class="carrito-productos disabled">
+
+<!-- Esta parte la vamos a completar con JS -->
+
+                <!-- <div class="carrito-producto">
+                  <img class="carrito-producto-imagen" src="./img/abrigos/01.jpg" alt="">
+                    <div class="carrito-producto-titulo">
+                     <small>Titulo</small>
+                     <h3>Abrigo 01</h3>
+                    </div>
+
+                    <div class="carrito-producto-cantidad">
+                     <small>Cantidad</small>
+                     <p>1</p>
+                    </div>
+
+                    <div class="carrito-producto-precio">
+                     <small>Precio</small>
+                     <p>$1000</p>
+                    </div>
+
+                    <div class="carrito-producto-subtotal">
+                     <small>Subtotal</small>
+                     <p>$1000</p>
+                    </div>
+                    <button class="carrito-producto-eliminar"><i class="bi bi-trash3"></i>Borrar</button>
+                </div> -->
+
+                <!-- <div class="carrito-producto">
+                 <img class="carrito-producto-imagen" src="./img/abrigos/01.jpg" alt="">
+                   
+                 <div class="carrito-producto-titulo">
+                    <small>Titulo</small>
+                    <h3>Abrigo 01</h3>
+                   </div>
+                   
+                   <div class="carrito-producto-cantidad">
+                    <small>Cantidad</small>
+                    <p>2</p>
+                   </div>
+                   
+                   <div class="carrito-producto-precio">
+                    <small>Precio</small>
+                    <p>$1000</p>
+                   </div>
+                   
+                   <div class="carrito-producto-subtotal">
+                     <small>Subtotal</small>
+                     <p>$2000</p>
+                   </div>
+                   
+                   <button class="carrito-producto-eliminar">Eliminar</button>
+               
+              </div> -->
+
+              <div id="carrito-acciones" class="carrito-acciones disabled">
+                 <div class="carrito-acciones-izquierda">
+                   <button id="carrito-acciones-vaciar" class="carrito-acciones-vaciar">Vaciar carrito</button>
+                 </div>
+                 <div class="carrito-acciones-derecha">
+                    <div class="carrito-acciones-total">
+                     <p>Total:</p>
+                     <p id="total">$3000</p>
+                    </div>
+                    <button id="carrito-acciones-comprar" class="carrito-acciones-comprar">Comprar ahora</button>
+                 </div>
+              </div> 
+              <p id="carrito-comprado" class="carrito-comprado disabled" style="font-size:100px">&#128540;>Muchas gracias por tu compra</p>
+
+            </div>
+        </main>
+    </div>
+
+   <script src="./carrito.js"></script>
+    
+</body>
+</html>
