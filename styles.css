@@ -7,6 +7,7 @@
     --clr-white: rgb(250, 228, 230);
     --clr-gray: rgb(245, 203, 207);
     --clr-red: #961818;
+    --clr-rose: rgb(254,201,210);
 }
 
 * {
@@ -28,6 +29,20 @@ ul {
 a {
     text-decoration: none;
 }
+.header {
+
+    height: 220px;
+    display: flex;
+    justify-content: center;
+    /* margin: 0 0 0 30px; */
+    background: var(--clr-rose);
+}
+
+.img {
+    height: 200px;
+    width: 360px;
+    object-fit: cover;
+}
 .wrapper {
     display: grid;
     background-color: var(--clr-main);
@@ -41,7 +56,7 @@ a {
 aside {
     padding: 2rem;
     padding-right: 0;
-    color: var(--clr-white);
+    color: var(--clr-main-light);
     position: sticky;
     top: 0;
     height: 100vh;
