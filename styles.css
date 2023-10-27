@@ -317,7 +317,7 @@ le daremos sus propios estilos */
         
 }
 
-@media screen and (max-width: 675px) {
+@media screen and (max-width: 678px) {
     .contenedor-productos {
         grid-template-columns: 1fr 1fr;
        } 
