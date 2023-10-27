@@ -469,11 +469,17 @@ le daremos sus propios estilos */
     }
   }
 
-  @media screen and (max-width: 400px) {
+  @media screen and (max-width: 480px) {
     .contenedor-productos {
-        grid-template-columns: 1fr;
+        grid-template-columns: 1fr 1fr;
        } 
     }
+
+  @media screen and (max-width: 320px) {
+    .contenedor-productos {
+         grid-template-columns: 1fr;
+        } 
+    }  
 
 
 
