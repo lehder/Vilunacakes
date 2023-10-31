@@ -634,5 +634,12 @@ le daremos sus propios estilos */
 
     }
 
+    @media screen and (max-width: 320px) {
+      .contenedor-productos {
+          grid-template-columns: 1fr;
+         } 
+  
+      }  
+
 
 
